@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family:'Maven pro', sans-serif;
+}
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    background-color:  #FF2276;
+    color: #fff;
+    z-index: 1;
+    padding: 1.8rem 6.7rem;
+    padding-bottom: 1.9rem;
+    position: sticky;
+}
+
+#navbar h1  {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    text-align: center; 
+}
+
+#navbar ul li {
+  padding: 0 0.1rem;
+   text-align: center;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-size: 0.86rem;
+    font-weight: bold;
+    margin-left: 1.8rem;
+}
+
+#navbar .active {
+    color: #000;
+}
+#navbar ul li a:hover {
+    color: #000;
+}
+
+/***showcase***/
+#showcase {
+    background: url('img/showcase.jpg')
+    no-repeat center center/cover;
+    position: relative;
+    height: 90vh;
+    background-attachment: fixed;
+}
+
+.showcase-content{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(17, 16, 16, 0.86);
+    color: #fff;
+}
+
+.showcase-container {
+    text-align: center;
+    padding-top: 8rem;
+}
+
+.showcase-container h1 {
+    
+    color: #FF2276;
+    font-size: 2.8rem;
+    padding: 0  27rem;
+    line-height: 3.5rem;
+    font-weight: 900;
+}
+
+.showcase-container p {
+    font-size:12px ;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    padding: 3rem 24rem;
+    line-height: 1.78rem;
+}
+
+.showcase-container button {
+    padding: 0.6rem 0.9rem;
+    background: #FF2276;
+    color: #fff;
+    border: none;
+    font-size: 0.9rem;
+    margin-top: 0.3rem;
+    font-weight: 530;
+}
+
+.showcase-container button:focus {
+    outline: none;
+}
+
+.showcase-container button:hover {
+    border: 0.2px #FF2276 dotted;
+    background: #4d0621;
+}
+
+.showcase-container button:focus {
+    background: hsl(0, 73%, 38%);
+}
+
+
+/***service-section***/
+#service-section {
+    background: rgb(241, 240, 240);
+}
+
+#service-section .service-title {
+    text-align: center;
+    padding-top: 7.5rem; 
+}
+
+.service-title h2 {
+    text-transform: uppercase;
+    font-size: 1.9rem;
+    color: rgb(54, 53, 53);
+}
+
+.service-title p {
+    padding-top: 1rem;
+    font-size: 1rem;
+    color: #000;
+}
+
+#service-section .services {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 4rem 7.4rem;
+}
+
+#service-section .services .service {
+    text-align: center;
+    padding: 1rem 1rem;
+}
+
+#service-section .services .service h2 {
+    font-size: 1.1rem;
+    color:rgb(65, 54, 54)
+}
+
+#service-section .services .service  p {
+    padding-top: 0.9rem;
+    font-size: 14.5px;
+    font-weight: 300;
+    margin-bottom: 4rem;
+    line-height: 1.6rem;
+    letter-spacing: normal;
+    color: #000
+   
+}
+
+#service-section .services i {
+    color: #fa5e9a;
+    font-size: 3rem;
+    padding-bottom: 2.1rem;
+}
