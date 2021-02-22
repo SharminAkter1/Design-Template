@@ -4,12 +4,32 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
-
-
 
 body {
     font-family:'Maven pro', sans-serif;
+}
+ 
+#content {
+    position: sticky;
+    overflow: hidden;
+}
+
+.checkbtn {
+    color: #fff;
+    cursor: pointer;
+    float: right;
+    margin-right: 0px;
+    display: none;
+}
+
+.checkbtn i {
+    float:end;
+}
+
+#check {
+    display: none;
 }
 
 #navbar {
@@ -62,6 +82,7 @@ body {
     no-repeat center center/cover;
     position: relative;
     height: 90vh;
+    width: 100%;
     background-attachment: fixed;
 }
 
