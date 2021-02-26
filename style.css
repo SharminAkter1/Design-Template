@@ -35,13 +35,15 @@ body {
 #navbar {
     display: flex;
     justify-content: space-between;
-    position:sticky;
+    position:fixed;
     top: 0;
+    width: 100%;
+    margin: 0 auto;
     background-color:  #FF2276;
     color: #fff;
-    z-index: 1;
-    padding: 1.8rem 6.7rem;
-    padding-bottom: 1.9rem;
+    z-index: 12;
+    padding: 1.2rem 6.7rem;
+    padding-bottom: 1.4rem;
    
 }
 
@@ -57,7 +59,7 @@ body {
 }
 
 #navbar ul li {
-  padding: 0 0.1rem;
+   padding: 0 0.1rem;
    text-align: center;
 }
 
@@ -67,7 +69,7 @@ body {
     text-align: center;
     font-size: 0.86rem;
     font-weight: bold;
-    margin-left: 1.8rem;
+    margin-left: 1.8rem;  
 }
 
 #navbar .active {
@@ -77,12 +79,16 @@ body {
     color: #000;
 }
 
+#navbar ul li a:focus {
+     color: #000;
+}
+
 /***showcase***/
 #showcase {
     background: url('img/showcase.jpg')
     no-repeat center center/cover;
     position: relative;
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     background-attachment: fixed;
 }
@@ -99,7 +105,7 @@ body {
 
 .showcase-container {
     text-align: center;
-    padding-top: 8rem;
+    padding-top: 12rem;
 }
 
 .showcase-container h1 {
