@@ -24,25 +24,30 @@
     border-radius: 20%;
     padding: 0.3rem 0.6rem;
     font-size: 1.4rem;
+    
 }
 
 #check:checked ~ ul {
     left:0;
 }
 
-#navbar {
-    border-bottom:1px #fff solid;
-
-}
-
 .menu {
     position: fixed ;
     width: 100%;
-    height: 23vh;
+    height: 40vh;
     background-color:  #FF2276;
-    top: 5rem;
+    top: 4.1rem;
     right: -1600px;
-    padding-top: 4rem;
+    flex-direction: column;
+    padding-top: 1.3rem;
+    border-top:1px #fff solid;
     transition: all 0.9s ease-in-out;
 }
+
+#navbar ul li a {
+    padding: 0.6rem;
+    display: flex;
+    margin-left: 2rem;  
+}
+
 
