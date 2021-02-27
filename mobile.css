@@ -21,7 +21,7 @@
 
 .checkbtn i {
     border: 1px #fff solid ;
-    border-radius: 20%;
+    border-radius: 10%;
     padding: 0.3rem 0.6rem;
     font-size: 1.4rem;
     
@@ -36,12 +36,12 @@
     width: 100%;
     height: 40vh;
     background-color:  #FF2276;
-    top: 4.1rem;
+    top: 4.7rem;
     right: -1600px;
     flex-direction: column;
     padding-top: 1.3rem;
     border-top:1px #fff solid;
-    transition: all 0.9s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 #navbar ul li a {
@@ -50,4 +50,79 @@
     margin-left: 2rem;  
 }
 
+#navbar {
+    padding: 1.46rem 1.2rem;
+    padding-bottom: 1.3rem;
+}
 
+#navbar h1 {
+    font-size: 1.2rem;
+    color: #fff;
+    
+}
+
+/***media for showcase ***/
+#showcase {
+    height: 110vh;
+}
+.showcase-container h1 {
+    padding: 0 1rem;
+    font-size: 2.7rem;
+}
+
+.showcase-container p {
+    padding: 3rem  1rem;
+}
+
+/***service-section***/
+.all-title {
+    padding-top: 6.8rem;
+}
+
+#services p {
+    font-size:0.94rem ;
+}
+
+#services .services {
+    display: block;
+    padding-bottom: 4.5rem;
+}
+
+#services .services .service { 
+    padding: 0.1rem 1rem;
+}
+
+
+#services .services .service  p {
+    font-size: 14.5px;
+    margin-bottom: 2.6rem;
+}
+
+#services .services i {
+    font-size: 3.2rem;
+    padding-bottom: 1.4rem;
+}
+
+/*** clients****/
+#clients {
+    height: 80vh;
+}
+.client-content ul {
+    flex-direction: column;
+   
+}
+
+.client-content ul li a {
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+}
+
+.left i  {
+    margin-top: -28.8rem;
+}
+
+.right i {
+    float: right;
+    margin-top: -28.8rem;
+}
