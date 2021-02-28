@@ -232,17 +232,33 @@ body {
     text-align: center; 
     justify-content: center;
     align-items: center;
-    height: 90%;
+    height: 100%;
     list-style: none; 
 }  
+
+/*
+.client-content .left {
+    position: absolute;
+    top: 186px;
+    margin-left:4rem;
+  
+}
+
+.client-content .right {
+    float: right;
+    position:relative;
+    top: 186px;
+    /*margin-right: 4rem;
+
+}*/
+
+
 
 .client-content i {
     background: #b30c4f;
     padding: 0.6rem 0.6rem;
     font-size: 0.6rem;
-    color: #ccc;
-  
-    
+    color: #ccc;  
 }
 
 .client-content ul  li a {
