@@ -76,11 +76,12 @@
 
 /***service-section***/
 .all-title {
-    padding-top: 6.8rem;
+    padding-top: 6.8rem 0;
 }
 
-#services p {
-    font-size:0.94rem ;
+.all-title p {
+    font-size: 0.92rem;
+    padding: 0  0.8rem;
 }
 
 #services .services {

@@ -150,12 +150,10 @@ body {
     background: hsl(0, 73%, 38%);
 }
 
-
 /***service-section***/
 #services {
     background: rgb(235, 234, 232);
 }
-
 
  .all-title {
     text-align: center;
@@ -169,10 +167,6 @@ body {
     color: rgb(54, 53, 53);
 }
 
-#services p {
-    font-size: 1rem;
-    color: #000;
-}
 
 #services .services {
     display: grid;
@@ -235,23 +229,6 @@ body {
     height: 100%;
     list-style: none; 
 }  
-
-/*
-.client-content .left {
-    position: absolute;
-    top: 186px;
-    margin-left:4rem;
-  
-}
-
-.client-content .right {
-    float: right;
-    position:relative;
-    top: 186px;
-    /*margin-right: 4rem;
-
-}*/
-
 
 
 .client-content i {
@@ -430,10 +407,6 @@ body {
     background: rgb(241, 240, 240);
 }
 
-#team .all-title {
-    margin-top: -3rem;
-   
-}
 .team-container {
     margin: 3rem 6rem;
     padding-bottom: 4.7rem;
@@ -500,8 +473,8 @@ body {
     color: #fff;
 }
 
- #contact .all-title {
-     font-size: 0.9rem;
+ #contact .all-title p {
+     color: #fff;
  }
 
 #contact h2 {
@@ -514,6 +487,7 @@ body {
     align-items: center;
     margin-top: 4.7rem;
     font-size: 1.1rem;
+    color: #fff;
 }
 
 #contact .container h3{
@@ -523,8 +497,7 @@ body {
 }
 
 #contact .container p {
-
-   padding: 0  32rem;
+    padding: 0  32rem;
     padding-top: 1.8rem;
     line-height: 2rem;
     letter-spacing: 0.8px;
@@ -532,6 +505,7 @@ body {
 
 #contact .container .p {
     padding-top: 0px;
+    color: #fff;
 }
 
 /*** Footer ***/
