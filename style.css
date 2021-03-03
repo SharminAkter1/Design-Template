@@ -75,6 +75,9 @@ body {
 #navbar ul li a:hover {
     color: #000;
 }
+#navbar .active {
+    color: #000;
+}
 
 #navbar ul li:focus {
     color: #000;
@@ -352,7 +355,7 @@ body {
 }
 
 #work img:hover {
-   /* -webkit-filter:grayscale(0);*/
+    -webkit-filter:grayscale(0);
     opacity: 1;
 }
 

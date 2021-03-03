@@ -1,0 +1,59 @@
+/*** Navber ***/
+
+#navbar {
+    padding: 2rem 1.3rem;
+    padding-bottom: 2rem;
+   
+}
+
+#navbar h1  {
+    font-size: 1.2rem;
+
+}
+
+/*** showcase ***/
+#showcase {
+    height: 70vh;
+
+}
+
+.showcase-container h1 {
+    padding: 0  6rem;
+    font-size: 2.7rem;
+}
+
+.showcase-container p {
+    padding: 3rem  12.9rem;
+    line-height: 1.6rem;
+    font-size: 0.7rem;
+}
+
+.showcase-container {
+    padding-top: 12.7rem;
+}
+
+/***service-section***/
+#services .services {
+    display: block;
+    padding-bottom: 4.5rem;
+}
+
+
+#services .services .service  p {
+    font-size: 14.6px;
+}
+
+#services .services {
+    padding: 4rem 3rem;
+}
+
+#services .services .service h2 {
+    font-size: 1.3rem;
+}
+
+#services .services i {
+    font-size: 3.7rem;
+    
+}
+
+
