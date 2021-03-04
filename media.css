@@ -1,0 +1,275 @@
+@media only screen and (min-width: 768px){
+
+    /*** Navber ***/
+
+    #navbar {
+        padding: 2rem 1.3rem;
+        padding-bottom: 2rem;
+    
+    }
+
+    #navbar h1  {
+        font-size: 1.2rem;
+    }
+
+    /*** showcase ***/
+    #showcase {
+        height: 68vh;
+    }
+
+    .showcase-container h1 {
+        padding: 0  6rem;
+        font-size: 2.7rem;
+    }
+
+    .showcase-container p {
+        padding: 2.5rem  12.9rem;
+        line-height: 1.6rem;
+        font-size: 0.7rem;
+    }
+
+    .showcase-container {
+        padding-top: 12.6rem;
+    }
+
+    /***service-section***/
+    #services .services {
+        display: block;
+        padding-bottom: 4.5rem;
+    }
+
+
+    #services .services .service  p {
+        font-size: 14.6px;
+    }
+
+    #services .services {
+        padding: 4rem 3rem;
+    }
+
+    #services .services .service h2 {
+        font-size: 1.3rem;
+    }
+
+    #services .services i {
+        font-size: 3.7rem;
+        
+    }
+
+    /*** clients****/
+    #clients {
+        height: 87vh;
+    }
+
+    .client-content ul  {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .client-content i {
+        padding: 1rem 1rem;
+    }
+
+    .client-content .left {
+        position: absolute;
+        top: 180px;
+        margin-left: -45rem;
+    }
+
+    .client-content .right {
+        float: right;
+        position:relative;
+        top: -580px;
+        margin-right: -45.3rem;
+    }
+
+    .client-content ul  li {
+        padding: 3.2rem 0;
+    }
+
+    .client-content .content-1 {
+        padding: 2.5rem 5.7rem;
+        font-size: 3rem;
+    }
+
+    .client-content .content-2 {
+        padding: 2.5rem 6.8rem;
+        font-size: 3.5rem;
+    }
+
+    .client-content .content-3 {
+        padding: 2.5rem 5.7rem;
+        font-size: 3.2rem;
+    }
+
+    .client-content .content-4 {
+        padding: 2.5rem 5.3rem;
+        font-size: 3rem; 
+    }
+
+    /*** work ***/
+    .work-wrapper img {
+        width: 200px;
+        height: 130px;
+    }
+
+    /*** testimonial***/
+    .testimonials-content p {
+        padding: 0 15rem;
+    }
+
+    #testimonials{
+        height: 37vh;
+    }
+
+
+    /*** Team***/
+
+    .team-container {
+        margin: 3rem 1rem;
+        padding-bottom: 4.7rem;
+    }
+
+    .team-members .team-member {
+        padding: 2rem  0.9rem;
+    }
+
+    /*** contact***/
+    #contact {
+        height: 54vh;
+    }
+
+    #contact .container{
+        margin-top: 4.9rem;
+    }
+    #contact .container p {
+        padding: 0rem  15rem;
+        padding-top: 1.3rem;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+
+    /***media for showcase ***/
+    #showcase {
+        height: 52vh;
+    }
+    .showcase-container h1 {
+        padding: 1rem  16.72rem;
+        font-size: 3rem;
+    }
+
+    .showcase-container p {
+        padding: 3rem  19rem;
+    }
+
+    /***service-section***/
+    #services .services {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 6rem 1.7rem;
+        padding-bottom: 2.5rem;
+    }
+
+    #services .services .service {
+        padding: 0.3rem 0.7rem;
+    }
+
+    #services .services .service h2 {
+        font-size: 0.9rem;
+    }
+
+    #services .services .service  p {
+        font-size: 11.9px;  
+    }
+
+    /*** client ***/
+    #clients {
+        height: 50vh;
+    }
+
+    .client-content ul  {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+       display: flex;
+       flex-direction: row;
+    }  
+
+      .client-content .left {
+        position: absolute;
+        top: 320px;
+        margin-left: -61.3rem;
+    }
+
+    .client-content .right {
+        float: right;
+        position:relative;
+        top: -10px;
+        margin-right: -5rem;
+     
+    }
+
+    .client-content ul  li {
+        padding: 3.2rem 0;
+    }
+
+    .client-content .content-1 {
+        padding: 2.5rem  1rem;
+        font-size: 1.8rem;
+    }
+
+    .client-content .content-2 {
+        padding: 2.5rem 2rem;
+        font-size: 1.8rem;
+    }
+
+    .client-content .content-3 {
+        padding: 2.5rem 0.9rem;
+        font-size: 1.9rem;
+    }
+
+    .client-content .content-4 {
+        padding: 2.5rem 0.9rem;
+        font-size: 1.7rem; 
+    }
+
+    /*** work***/
+    .work-wrapper img {
+        width: 294px;
+        height: 200px;
+    }
+
+    /*** testimonial***/
+    .testimonials-content p {
+        line-height: 1.8rem;
+        font-size: 1.1rem;
+        padding: 0  21rem;
+
+    }
+
+      /*** contact***/
+
+    #contact {
+        height: 40vh;
+    }
+    #contact .container{
+        margin-top: 4.9rem;
+    }
+    #contact .container p {
+        font-size: 1.35rem;
+        padding: 0rem 19rem;
+        padding-top: 1.1rem;
+    }
+
+    /*** Footer ***/
+    #Footer p {
+       padding: 2rem 6rem;
+       font-size: 1.3rem;
+    
+    }
+
+
+
+}

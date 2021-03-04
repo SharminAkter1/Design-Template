@@ -437,23 +437,20 @@ body {
     display: block;
     padding: 0rem 0rem 0rem 3rem;
     margin-right: 0;
-
 }
 
 .team-member .content  h3{
-    font-size: 1.4rem;
-    font-weight: 500;
-    color: #000;
+    font-size: 1.35rem;
+    font-weight: 600;
+    color: rgb(92, 88, 88);
     margin-bottom: 0.3rem;
 }
-
 
 .team-member .content  p {
     font-size: 0.91rem;
     font-weight: 200;
     color: rgb(10, 1, 0.4);
     line-height: 1.6rem;
-
 }
 
 /*** contact***/
@@ -521,3 +518,6 @@ body {
    font-weight: bold;
    letter-spacing: 1px;
 }
+
+
+
