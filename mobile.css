@@ -323,8 +323,39 @@
 
     }
 
+}
+
+@media only screen and (max-width: 360px) {
+    .work-wrapper img {
+        width: 310px;
+        height: 230px;
+    }
 
 
+    .client-content .left {
+        top: 148px;
+        margin-left: -21rem;
+    }
+    
+    .client-content .right {
+        margin-right: -21rem;
+    }
 
+    .client-content .content-1 {
+        padding: 2.5rem 3rem;
+    }
+    
+    .client-content .content-2 {
+        padding: 2.5rem 4rem;
+    }
+    
+    .client-content .content-3 {
+        padding: 2.5rem 3rem;
+    }
+    
+    .client-content .content-4 {
+        padding: 2.5rem 2.5rem;
+        font-size: 2rem; 
+    }
 
 }
