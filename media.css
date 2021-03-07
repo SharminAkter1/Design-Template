@@ -193,11 +193,11 @@
         text-align: center;
         justify-content: center;
         align-items: center;
-       display: flex;
-       flex-direction: row;
+        display: flex;
+        flex-direction: row;
     }  
 
-      .client-content .left {
+       .client-content .left {
         position: absolute;
         top: 320px;
         margin-left: -61.3rem;
@@ -246,11 +246,9 @@
         line-height: 1.8rem;
         font-size: 1.1rem;
         padding: 0  21rem;
-
     }
 
       /*** contact***/
-
     #contact {
         height: 40vh;
     }
@@ -267,8 +265,114 @@
     #Footer p {
        padding: 2rem 6rem;
        font-size: 1.3rem;
-    
     }
+
+}
+
+@media only screen and (min-width: 1200px) {
+    /***media for showcase ***/
+    #showcase {
+         height: 100vh;
+    }
+
+    .showcase-container h1 {
+        padding: 0  26rem;
+        font-size: 2.7rem;
+    }
+
+    .showcase-container p {
+        padding: 3rem  27rem;
+        font-size: 0.7rem;
+    }
+    
+    /*** service sections***/
+    #services .services {
+        padding: 4rem 7.4rem;
+        padding-bottom: 2.5rem;
+    }
+
+    
+#services .services .service {
+          padding: 1rem 1.1rem;
+    }
+
+    #services .services .service h2 {
+        font-size: 1.1rem;
+    }
+
+    #services .services .service  p {
+        font-size: 14.5px;
+        line-height: 1.6rem;
+    }
+   
+   /*** client ***/
+    #clients { 
+        height: 67vh;
+    }
+
+   .client-content i {
+        padding: 0.6rem 0.6rem;
+        font-size: 0.6rem;
+    }
+
+    .client-content .content-1 {
+        padding: 2.7rem 1.4rem;
+    }
+    
+
+   .client-content .content-2 {
+       padding: 2.7rem 2.9rem;
+    }
+
+    .client-content .content-3 {
+        padding: 2.7rem 1.7rem;
+    }
+
+    .client-content .content-4 {
+        padding: 2.7rem 1.2rem;
+        font-size: 2rem; 
+    }
+
+    .client-content .left {
+        top: 190px;
+    }
+
+    /*** testimonilas***/
+
+    #testimonials  {
+        height: 55vh;
+    }
+
+    .testimonials-content p {
+        line-height: 1.6rem;
+        font-size: 0.88rem;
+        padding: 0 31.3rem;
+    }
+
+    /*** contact***/
+    #contact {
+        height: 84vh;
+    }
+    
+    #contact .container p {
+        padding: 0  33rem;
+        padding-top: 1.8rem;
+        font-size: 1rem;
+    }
+    
+    /*** Footer ***/
+    #Footer p {
+       
+   
+   
+    font-size: 0.98rem;
+    color: #333;
+    font-weight: bold;
+    letter-spacing: 1px;
+    }
+
+
+
 
 
 

@@ -265,17 +265,11 @@ body {
      }
 }
 
-.client-content .content-1 {
-    color: #ccc;
-    border: 1px #e40b5e solid;
-    border-radius: 3%;
-    padding: 2.7rem 1.4rem;
-}
-
 .client-content {
     animation: reverse;
     animation-duration: 1s;
 }
+
 
 .client-content .content-2 {
     color:blue;
