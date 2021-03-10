@@ -117,7 +117,8 @@
 }
 
 .client-content .left {
-    position: absolute;
+    float: left;
+    position: relative;
     top: 208px;
     margin-left: -32.2rem;
 }
@@ -232,7 +233,9 @@
   
 }
 
-@media only screen and (max-width: 500px) {
+
+
+@media only screen and (max-width: 600px) {
     /*** showcase***/
     #showcase {
         height: 100vh;
@@ -325,7 +328,86 @@
 
 }
 
-@media only screen and (max-width: 360px) {
+@media (min-width: 280px) and (max-width: 320px) {
+    /***showcase***/
+    #showcase {
+        height: 130vh; 
+    }
+
+    .showcase-container h1 {
+        font-size: 2rem; 
+        line-height: 2.5rem;
+        
+    }
+    .showcase-container {
+        padding-top: 14rem;
+    }
+
+    /** cients**/
+ 
+    .client-content .content-1 {
+        padding: 2.5rem 2.6rem;
+        font-size: 1.5rem;
+    }
+
+    .client-content .content-2 {
+        padding: 2.4rem 3.4rem;
+        font-size: 1.59rem;
+    }
+
+    .client-content .content-3 {
+        padding: 2.5rem 2.5rem;
+        font-size: 1.59rem;
+    }
+
+    .client-content .content-4 {
+        padding: 2.5rem 2.3rem;
+        font-size: 1.44rem; 
+    }
+
+    .client-content .left {
+        top: 208px;
+        margin-left: -18.5rem;
+    }
+    
+    .client-content .right {
+        top: -345px;
+        margin-right: -18.5rem;
+    }
+
+    /** work gellary **/
+    .work-wrapper img {
+        width: 260px;
+        height: 210px;
+    }
+
+    /*** contact***/
+    #contact {
+    height: 105vh;
+
+    }
+
+
+
+}
+
+@media(min-width: 321px) and (min-width: 360px){
+     
+     /***showcase***/
+    #showcase {
+        height: 107vh;
+       
+    }
+
+    .showcase-container {
+        padding-top: 10rem;
+    }
+    
+    .showcase-container h1 {
+        line-height: 3.5rem;
+        font-size: 2.5rem; 
+    }
+
     .work-wrapper img {
         width: 310px;
         height: 230px;
@@ -333,7 +415,7 @@
 
 
     .client-content .left {
-        top: 148px;
+        top: 85px;
         margin-left: -21rem;
     }
     
@@ -358,4 +440,68 @@
         font-size: 2rem; 
     }
 
+    /*** contact***/
+    #contact {
+        height: 86vh;
+    
+    }
+
+
 }
+
+
+@media (min-width: 361px) and (max-width: 375px) {
+    /***showcase***/
+    #showcase {
+        height: 92vh; 
+    }
+
+    /*** clients ***/
+    #clients {
+        height: 120vh;
+    }
+    
+    .client-content .left {
+        position: relative;
+        top: 90px;
+        margin-left: -22rem;
+    }
+    
+    .client-content .right {
+        float: right;
+        position:relative;
+        top: -505px;
+        margin-right: -22rem;
+    }
+
+    /*** contact***/
+    #contact {
+        height: 80vh;
+        text-align: center;
+    }
+
+
+}
+
+
+@media (min-width: 376px) and (max-width: 414px) {
+    /***showcase***/
+    #showcase {
+        height: 90vh; 
+    }
+
+    .showcase-container h1 {
+        font-size: 2.5rem;
+        padding: 0  2rem;
+       
+    }
+    
+    /*** contact***/
+    #contact {
+        height: 75vh;
+       
+    }
+
+}
+
+
