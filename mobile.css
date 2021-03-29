@@ -483,8 +483,23 @@
 
 }
 
+@media (max-width: 414px){
+   #contact {
+    max-width: 100vw;
+    width: 90%;
+   }
+    
+}
 
 @media (min-width: 376px) and (max-width: 414px) {
+
+    #showcase .showcase-container {
+        text-align: center;
+        /*padding-top: 12rem;*/
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
     /***showcase***/
     #showcase {
         height: 90vh; 
